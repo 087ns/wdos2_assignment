@@ -1,0 +1,88 @@
+h3{font-family:inherit;
+   font-size:x-large;
+   text-align: center;
+}
+h2{text-align: center;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{background-image: url(brbg.jpg);margin: 0; padding: 0;}
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  z-index: 1;
+}
+li {float: left;}
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: inherit;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+li a:hover {background-color:#696969;}
+header {
+    background-color:thistle;
+    color:black;
+    text-align: center;
+    padding-top: 50px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;  
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.contact,.terms{
+  flex: 1;
+  text-align: left;
+  padding: 0 20px;
+  
+}
+.hotel-logo {
+  flex: 1;
+  text-align: center;
+}
+.hotel-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+ul {
+  position: static; 
+  }
+  li {
+  float: none; 
+  display: block; 
+  }
+  li a {
+  padding: 10px;
+  text-align: center;
+  font-family: inherit;
+}
+header {
+  padding-top: 20px; 
+}
+
+.center {
+  max-width: 100%; 
+  height: auto;
+}
+
+h3 {font-size: large;}
+}

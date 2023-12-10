@@ -1,0 +1,135 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image:url(backg.jpg);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkred;
+  }
+  li {
+      float: left;}
+  li a {
+        display: block;
+        color:white;
+        text-align: center;
+        font-family: inherit;
+        padding: 1px 50px;
+        text-decoration: none;
+  }
+  li a:hover {background-color:firebrick ;}
+  h2 {
+    text-align: center;
+    font-family: cursive;
+    color:white;
+    padding: 20px;
+    margin: 0;
+  }
+ 
+.event {
+  background-color:seagreen;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.event img {
+  display: block;
+  margin: 0 auto 20px;
+  border: 2px solid #ff9900;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.event img:hover {
+  transform: scale(1.05); 
+}  
+.event h3 {
+  color: black;
+  margin-top: 0;
+  font-size: 24px;
+}
+  
+.event p {
+  margin: 5px 0;
+  color: white;
+}
+.gallery img {
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  margin: 14px;
+  
+}
+h3 {
+  background-color:lawngreen;
+  color:black;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;  
+}
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.contact,.terms{
+flex: 1;
+text-align: left;
+padding: 0 20px;
+
+}
+.hotel-logo {
+flex: 1;
+text-align: center;
+}
+.hotel-logo img {
+max-width: 100px;
+height: auto;
+}
+@media (max-width: 767px) {
+ul {
+  position: static; 
+  }
+  li {
+  float: none; 
+  display: block; 
+  }
+  li a {
+  padding: 10px;
+  text-align: center;
+  font-family: inherit;
+  }
+h2 {font-size: 20px;}
+.event {
+  padding: 10px;
+  margin: 15px 0;
+}
+.event img {
+  width: 100%;
+}
+.gallery {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+.gallery img {
+  max-width: 100%; 
+  height: auto; 
+  margin: 10px auto; 
+}
+}
+
+
+
+

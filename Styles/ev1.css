@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkred;
+    margin: 0;
+    padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+li {
+    float: left;}
+li a {
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: inherit;
+      padding: 1px 50px;
+      text-decoration: none;
+}
+li a:hover {
+      background-color:#696969 ;
+}  
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+}
+
+.event {
+  background-color:lemonchiffon;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.event img {
+  display: block;
+  margin: 0 auto 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.event img:hover {
+  transform: rotate(5deg); 
+} 
+
+.event h3 {
+  color: #007bff;
+  margin-top: 0;
+}
+.event2 a {
+  text-decoration: none; 
+  color: wheat; 
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: 30px; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.gallery img {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;  
+}
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.contact,.terms{
+flex: 1;
+text-align: left;
+padding: 0 20px;
+
+}
+.hotel-logo {
+flex: 1;
+text-align: center;
+}
+.hotel-logo img {
+max-width: 100px;
+height: auto;
+}
+@media only screen and (max-width: 767px) {
+ul {
+  position: static; 
+  }
+  li {
+  float: none; 
+  display: block; 
+  }
+  li a {
+  padding: 10px;
+  text-align: center;
+  font-family: inherit;
+  }
+.event {
+  padding: 10px; 
+  margin: 10px;
+  overflow: hidden;
+  } 
+.event img {
+  margin: 0 auto 5px;
+  max-width: 100%;}
+.event2 {text-align: center;}
+.event2 a {margin: 10px auto;}
+.gallery {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+.gallery img {margin: 5px;}
+}  

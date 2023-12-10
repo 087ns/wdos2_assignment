@@ -1,0 +1,123 @@
+body{background-image: url(brbg.jpg);margin: 0;padding:0;}
+img {
+     display: block;
+     width: 100%;
+     padding-top: 10px;
+}
+A{color:maroon;
+  margin-left: 60px;
+  text-decoration: none;
+}
+h2{font-style: oblique;}
+ul {
+  list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    z-index: 1;
+}
+li {float: left;}
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: inherit;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+li a:hover {background-color:#696969 ;}
+.paragraph {
+    float: right;
+    width: 80%; 
+    padding: 10px;
+    font-size: x-large;
+    font-family: unset;
+    background-color:#FFF0F5;
+}
+.logo {
+    position: absolute;
+    top: 80px; 
+    left: 20px; 
+    width: 130px; 
+    height: auto; 
+    display: block;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;  
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact,.terms{
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    
+  }
+  .hotel-logo {
+    flex: 1;
+    text-align: center;
+  }
+  .hotel-logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  @media only screen and (max-width: 767px) {
+    .paragraph {
+      float: none; 
+      width: 100%;
+      padding: 10px;
+      font-size: large; 
+      background-color: #FFF0F5;
+    }
+.logo {
+  width: 130px; 
+height: auto; 
+display: block; 
+margin: 20px auto; 
+position: static;
+}
+ul {
+  position: static; 
+}
+li {
+  float: none; 
+  display: block; 
+}
+li a {
+  padding: 10px;
+  text-align: center;
+  font-family: inherit;
+}
+.img {
+  width: 100%; 
+  height: auto; 
+}
+h1,h2{text-align: center;} 
+
+    .footer-content {
+      flex-direction: column; 
+      text-align: center;
+    }
+    .contact,
+    .terms {
+      text-align: center;
+      padding: 0;
+    }
+    .hotel-logo {
+      text-align: center;
+    }
+    .hotel-logo img {
+      max-width: 80px;
+      height: auto;
+    }
+  }

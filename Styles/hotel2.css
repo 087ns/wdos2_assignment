@@ -1,0 +1,135 @@
+body{background-image: url(brbg.jpg);}
+ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+li {
+    float: left;}
+li a {
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: inherit;
+      padding: 1px 50px;
+      text-decoration: none;
+}
+li a:hover {background-color:#696969 ;}
+.left-paragraph {
+    float: right;
+    width: 40%; 
+    color:black;
+    font-style: oblique;
+    font-size:larger;
+    margin-top:-17%;
+}
+
+h2{text-align: center;}
+h1{text-align: center;}
+.image-container {
+    float: right;
+    clear: right; 
+}
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+
+th {
+    background-color:thistle;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+  
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color:bisque;
+}
+.button-link {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 20px 30px;
+  cursor: pointer;
+  margin: 10px; 
+  border: none; 
+  border-radius: 5px; 
+}
+.button-container {text-align: center;}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;  
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact,.terms{
+  flex: 1;
+  text-align: left;
+  padding: 0 20px;
+  
+}
+.hotel-logo {
+  flex: 1;
+  text-align: center;
+}
+.hotel-logo img {
+  max-width: 100px;
+  height: auto;
+}
+@media (max-width: 767px) {
+  ul {
+      position: static; 
+      }
+      li {
+      float: none; 
+      display: block; 
+      }
+      li a {
+      padding: 10px;
+      text-align: center;
+      font-family: inherit;
+      }
+  .left-paragraph {
+      width: 100%; 
+      text-align: center;
+      margin-top: 30px;
+  }
+  .image-container,.img{text-align: center; }
+  
+  table {width: 100%; }
+  td {font-size: medium; }
+  .button {padding: 15px 20px;}
+  .button-container {text-align: center;}
+  .footer-content {
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+  }
+  .contact,.terms,.hotel-logo {
+      flex: 1;
+      text-align: center; 
+      padding: 0 20px;
+      margin: 10px 0; 
+  }
+  }
+  
